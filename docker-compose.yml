@@ -1,7 +1,7 @@
 version: "3"
 services:
   web-server:
-    build: ../WANG_Ziyi
+    build: .
     restart: unless-stopped
     ports:
       - 8001:80
@@ -20,6 +20,7 @@ services:
     image: mysql:5.7
     volumes:
       - db_data:/var/lib/mysql
+      - ./baseeCrise.sql:/docker-entrypoint-initdb.d
     environment:
       MYSQL_ROOT_PASSWORD: orm
       MYSQL_DATABASE: orm

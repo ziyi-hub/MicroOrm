@@ -6,7 +6,7 @@
 <ol>
 	<li>Vous pouvez cloner ssh dans n'importe quel répertoire de votre choix, mais pas dans le répertoire XAMPP/LAMP/WAMP/MAMP</li>
 	<li>Lancez le service docker</li>
-	<li>Sous répertoire de racine, pour le moment, il faut entrer la commande composer install Puis tapez la commande docker-compose up --build sur terminal</li>
+	<li>Sous répertoire de racine, pour le moment, il faut entrer la commande <code>composer install</code>. Puis tapez la commande <code>docker-compose up --build</code> sur terminal</li>
 	<li>
 		Vous pouvez vous connecter sur phpmyadmin <code>http://localhost:8002</code> avec les identifiants suivants :<br>
 		<ul>Utilisateur : orm</ul>
