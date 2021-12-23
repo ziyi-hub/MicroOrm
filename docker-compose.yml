@@ -1,0 +1,38 @@
+version: "3"
+services:
+  web-server:
+    build: ../WANG_Ziyi
+    restart: unless-stopped
+    ports:
+      - 8001:80
+    image: orm
+    volumes:
+      - .:/var/www/html
+    environment:
+      DB_HOST: mysql
+      DB_USER: orm
+      DB_PASSWORD: orm
+      DB_NAME: orm
+      DB_PORT: 3306
+
+
+  mysql:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: orm
+      MYSQL_DATABASE: orm
+      MYSQL_PASSWORD: orm
+      MYSQL_USER: orm
+
+  phpmyadmin:
+    image: phpmyadmin
+    ports:
+      - 8002:80
+    environment:
+      - PMA_ABRITRARY=1
+      - PMA_HOST=mysql
+
+volumes:
+  db_data:
