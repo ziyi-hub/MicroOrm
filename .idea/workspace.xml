@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71050ba9-5438-4af7-837e-c35f8ec4655f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/WANG_ORM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/WANG_ORM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -105,8 +112,23 @@
       <option name="presentableId" value="Default" />
       <updated>1640218318463</updated>
       <workItem from="1640218320158" duration="24000" />
-      <workItem from="1640218567152" duration="894000" />
+      <workItem from="1640218567152" duration="2073000" />
     </task>
+    <task id="LOCAL-00001" summary="Ajout vendor">
+      <created>1640219550950</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640219550950</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ajout .idea">
+      <created>1640219595315</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640219595315</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +144,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ajout vendor" />
+    <MESSAGE value="Ajout .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout .idea" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="514" y="188" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1640219502351">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="514" y="188" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1440.900@0.0.1440.900" timestamp="1640219502351" />
   </component>
 </project>

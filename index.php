@@ -12,8 +12,11 @@ try {
     die();
 }
 
-echo "/model-test.php";
+echo "<h1>Micro orm</h1>";
+echo "Voici l'application Micro orm créé par Ziyi WANG,";
 echo "<br><br>";
-echo "/query-test.php";
+echo " pour afficher le test de Model, ajouter directement /model-test.php sur url";
+echo "<br><br>";
+echo "pour afficher le test de Query, ajouter  directement /query-test.php  sur url. Merci!";
 echo "<br><br>";
 
